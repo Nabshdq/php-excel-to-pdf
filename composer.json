@@ -1,0 +1,19 @@
+{
+    "name": "asus/excel-to-pdf",
+    "autoload": {
+        "psr-4": {
+            "Asus\\ExcelToPdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Nabil Shadiq",
+            "email": "muhnabil7604@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.9",
+        "mpdf/mpdf": "^8.2",
+        "tecnickcom/tcpdf": "^6.8"
+    }
+}

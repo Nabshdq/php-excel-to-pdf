@@ -1,0 +1,88 @@
+/* src/css/auth-style.css */
+
+/* Reset All */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #e4e9f7;
+}
+
+/* Form Styling */
+.form-box {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    width: 450px;
+    margin: 10px;
+}
+
+.form-box header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+/* Input Fields */
+.form-box form .field {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-box form .field input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Buttons */
+.btn {
+    height: 35px;
+    background: rgba(76, 68, 182, 0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn:hover {
+    opacity: 0.82;
+}
+
+.submit {
+    width: 100%;
+}
+
+.links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Message */
+.message {
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0;
+    border: 1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}

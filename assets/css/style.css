@@ -1,0 +1,100 @@
+/* src/css/style.css */
+
+/* General Container Styling */
+.container {
+    margin-top: 30px;
+}
+
+.table-wrapper {
+    overflow-x: auto;  /* Enable horizontal scrolling if necessary */
+    max-width: 100%;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table Header & Cell Styling */
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Column Widths */
+th:nth-child(1), td:nth-child(1) { /* Aksi column */
+    width: 100px;  /* Set width */
+}
+
+th:nth-child(2), td:nth-child(2) { /* No Rangka column */
+    width: 150px;  /* Set width */
+}
+
+th:nth-child(3), td:nth-child(3) { /* SPK column */
+    width: 200px;  /* Set width */
+}
+
+th:nth-child(4), td:nth-child(4) { /* Model column */
+    width: 120px;  /* Set width */
+}
+
+th:nth-child(5), td:nth-child(5) { /* Type column */
+    width: 150px;  /* Set width */
+}
+
+th:nth-child(6), td:nth-child(6) { /* Nama Pelanggan column */
+    width: 200px;  /* Set width */
+}
+
+th:nth-child(7), td:nth-child(7) { /* Alamat Pelanggan column */
+    width: 250px;  /* Set width */
+}
+
+th:nth-child(8), td:nth-child(8) { /* Tanggal DEC column */
+    width: 100px;  /* Set width */
+}
+
+th:nth-child(9), td:nth-child(9) { /* No HP column */
+    width: 120px;  /* Set width */
+}
+
+th:nth-child(10), td:nth-child(10) { /* Email column */
+    width: 200px;  /* Set width */
+}
+
+th:nth-child(11), td:nth-child(11) { /* Cabang Pembelian column */
+    width: 150px;  /* Set width */
+}
+
+th:nth-child(12), td:nth-child(12) { /* Cabang Service Retention column */
+    width: 200px;  /* Set width */
+}
+
+th:nth-child(13), td:nth-child(13) { /* OM Pembelian column */
+    width: 150px;  /* Set width */
+}
+
+th:nth-child(14), td:nth-child(14) { /* OM Service Retention column */
+    width: 200px;  /* Set width */
+}
+
