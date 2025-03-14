@@ -1,6 +1,5 @@
-/* src/css/auth-style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-/* Reset All */
 * {
     padding: 0;
     margin: 0;
@@ -8,20 +7,34 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+    height: 100%; /* Memastikan body dan html memiliki tinggi penuh */
+}
+
 body {
     background: #e4e9f7;
 }
 
-/* Form Styling */
-.form-box {
+.container {
+    display: flex;
+    align-items: center; /* Vertikal center */
+    justify-content: center; /* Horizontal center */
+    height: 100%; /* Membuat container memiliki tinggi penuh */
+}
+
+.box {
     background: #fdfdfd;
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 25px 25px;
     border-radius: 20px;
-    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.form-box {
     width: 450px;
-    margin: 10px;
+    margin: 0px 10px;
 }
 
 .form-box header {
@@ -32,14 +45,13 @@ body {
     margin-bottom: 10px;
 }
 
-/* Input Fields */
 .form-box form .field {
     display: flex;
     margin-bottom: 10px;
     flex-direction: column;
 }
 
-.form-box form .field input {
+.form-box form .input input {
     height: 40px;
     width: 100%;
     font-size: 16px;
@@ -49,16 +61,15 @@ body {
     outline: none;
 }
 
-/* Buttons */
 .btn {
     height: 35px;
-    background: rgba(76, 68, 182, 0.808);
+    background: rgba(76,68,182,0.808);
     border: 0;
     border-radius: 5px;
     color: #fff;
     font-size: 15px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all .3s;
     margin-top: 10px;
     padding: 0px 10px;
 }
@@ -72,16 +83,14 @@ body {
 }
 
 .links {
-    margin-top: 10px;
-    text-align: center;
+    margin-bottom: 15px;
 }
 
-/* Message */
 .message {
     text-align: center;
     background: #f9eded;
-    padding: 15px 0;
-    border: 1px solid #699053;
+    padding: 15px 0px;
+    border:1px solid #699053;
     border-radius: 5px;
     margin-bottom: 10px;
     color: red;
